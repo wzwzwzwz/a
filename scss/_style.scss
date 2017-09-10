@@ -1,0 +1,373 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/bg.jpg)
+}
+
+header{
+    .fangwa{
+        width: 100%;
+        height: 28px;
+        background-image: url(../img/topbg.jpg);
+    }
+}
+
+ 
+.ziwojieshao{
+    width: 100%;
+    height: 790px;
+    background-image: url(../img/1233214.gif);
+    img{
+        float: left;
+        width: 270px;
+    }
+    .xbk{
+        border: 3px #7e7d7d solid;
+        padding: 20px;
+ //       text-align: center;
+        height: 260px;
+        border-radius: 20px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 30px;
+        margin-top: 80px;
+        background-color: #e6e4e4;
+        display: table;
+    }
+    h3{
+         text-align: center;
+        font-weight: bold;
+    }
+    p{
+        margin-left: 20px;
+    }
+    img{
+        width: 500px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+.h1zt{
+    color: #333;
+}
+.beijing{
+    background-image: url(../img/navbg.png);
+    background-repeat:no-repeat;
+    height: 64px;
+    padding-top: 10px;
+    width:779px; 
+    ul{
+        list-style: none;
+        a{
+             color: #fff;
+            text-decoration: none;
+        }
+        
+        li{
+         float: left;
+            height:46px;
+            text-align: center;
+            width: 110px;
+            line-height: 46px;
+        }
+    }
+}
+
+#tu{
+    margin-left: 20%;
+    height: 14px;
+    width: 1034px;
+}
+
+#zhou{
+    margin: auto;
+    width: 1050px;
+     background-color:#e5e5e5;
+    border: #d2d2d2 1px solid;
+    margin-top: 20px;
+}
+.zuoban{
+    
+    .shang{
+        margin-bottom: 40px;
+        display: table;
+        h4{
+            a{
+            color: #000;
+            font-size: 16px;
+                text-decoration: none;
+        }
+        }
+        
+        p{
+            margin-top: 20px;
+            line-height: 20px;
+            color: #666666;
+            height: 110px;
+        }
+        img{
+            width: 140px;
+            float: left;
+            height: 98px;
+            margin-right: 15px;
+            padding: 4px;
+            border: #f4f2f2 1px solid;
+        }
+        .chaoren{
+            color: #fff;
+            font-size: 13px;
+            line-height: 20px;
+        }
+        .chakan{
+            width: 80px;
+            height: 30px;
+            background-color:#333;
+            clear: left;
+            float: right;
+            margin-right: 70px;
+            margin-top: -40px;
+            padding: 5px;
+            text-align: center;
+            
+        }
+        .caise{
+            clear: left;
+            width: 100%;
+            background-color: #fff;
+            height: 25px;
+            padding-left: 25px;
+            opacity:0.8;
+            line-height: 25px;
+        }
+    }
+}
+.you{
+    background-image: url(../img/rtitbg.png);
+        width:311px;
+    height: 44px;
+    color: #fff;
+    padding-left: 50px;
+    padding-top:4px; 
+    margin-top: 15px;
+}
+.guanzhuwo{
+    ul{
+       list-style: none; 
+        display:table;
+    }
+    li{
+       width: 64px;
+        height: 74px;
+        float: left;
+        text-align: center;
+        margin-right: 15px;
+    }
+    a{
+        color: #747F8C;
+        
+    }
+    img{
+        
+    }
+}
+.xuexi{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 5px;
+    img{
+        width: 70px;
+        height: 54px;
+        margin-right: 15px;
+        float: left;
+    }
+    span{
+        background-image: url(../img/lanmbq.png);
+        background-repeat:no-repeat;
+        padding-left: 17px;
+        margin-right: 10px;
+        
+    }
+    p{
+                margin-top: 14px;
+    }
+    b{
+        a{
+            color: #333;
+        }
+    }
+    a{
+        text-decoration: none;
+        color: #747F8C;
+    }
+}
+.fangwen{
+    li{
+        margin-top: 10px;
+    }
+    a{
+        color: #333;
+        span{
+            color: #f00;
+        }
+    }  
+    img{
+    width: 300px;
+    height: 170px;
+        margin-top: 40px;
+        margin-left: 20px;
+        
+}
+    }
+footer{
+    background-color: #000;
+    opacity:0.5;
+    width: 100%;
+    height: 50px;
+}
+.pigu1{
+    span{
+        color: #fff;
+        line-height: 50px;
+    }
+}
+.pigu2{
+    text-align: right;
+    span{
+        color: #fff;
+        line-height: 50px;
+        
+    }
+}
+#chaojida{
+    display: none;
+}
+#ckzwjs{
+    z-index:999;
+    display: block;
+    border: 1px solid #aeadad;
+    width: 60px;
+    height: 150px;
+    padding: 20px;
+    position: fixed;
+    right: 150px;
+    top: 100px;
+    text-align: center;
+    background-image: url(../img/sdagasdgasfdg.gif);
+    color: #000;
+    text-decoration: none;
+}
+.guanzhuwo li:hover{
+    opacity:0.5;
+}
+.xuexi:hover{
+    background-color: #f4f3f3;
+}
+a .chakan:hover{
+     opacity:0.7;
+}
+
+@media (max-width:400px){
+    .shang{
+        width:380px;
+        height: 180px;
+    }
+    #zhou{
+        width: 400px;
+        font-size: 10px;
+        height: auto;
+    }
+    .chakan{
+        margin-top:100px;;
+    }
+    .beijing{
+        display: none;
+    }
+    #ckzwjs{
+         position: fixed;
+    right: 10px;
+    top: 10px;
+    
+    }
+    .ziwojieshao{
+        img{
+            width: 360px;
+        }
+    }
+    
+} 
+@media (max-width:900px){
+    .shang{
+        width:800px;
+        height: 180px;
+    }
+    #zhou{
+        width: 820px;
+        font-size: 10px;
+        height: auto;
+    }
+    .chakan{
+        margin-top:100px;;
+    }
+    .beijing{
+        display: none;
+    }
+    #ckzwjs{
+         position: fixed;
+    right: 10px;
+    top: 10px;
+    
+    }
+    .ziwojieshao{
+        img{
+            width: 600px;
+        }
+    }
+    
+} 
+@media (max-width:1024px){
+    .shang{
+        width:450px;
+        height: 180px;
+    }
+    .fangwen img{
+        width: 230px;
+    }
+    #zhou{
+        width: 820px;
+        font-size: 10px;
+        height: auto;
+    }
+    .chakan{
+        margin-top:100px;;
+    }
+    .beijing{
+        display: none;
+    }
+    #ckzwjs{
+         position: fixed;
+    right: 10px;
+    top: 10px;
+    
+    }
+    .ziwojieshao{
+
+        img{
+            width: 450px;
+        }
+    }
+    .guanzhuwo li{
+        width: auto;
+    }
+    
+} 
